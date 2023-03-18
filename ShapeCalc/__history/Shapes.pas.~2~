@@ -1,0 +1,46 @@
+unit Shapes;
+
+interface
+
+{uses}
+
+type
+
+  TShape = class
+  protected
+    function GetArea: double; virtual; abstract;
+    function GetPerimeter: double; virtual; abstract;
+  public
+  end;
+
+  TRectangle = class(TShape)
+  private
+    fLength: double;
+    fBreadth: double;
+  public
+    function GetArea: double; override;
+    function GetPerimeter: double; override;
+    constructor Create(const aLength, aBreadth: double);
+  end;
+
+implementation
+
+{ TRectangle }
+
+constructor TRectangle.Create(const aLength, aBreadth: double);
+begin
+  fLength := aLength;
+  fBreadth := aBreadth;
+end;
+
+function TRectangle.GetArea: double;
+begin
+  Result :=  fLength * fBreadth;
+end;
+
+function TRectangle.GetPerimeter: double;
+begin
+  Result := 2 * (fLength + fBreadth);
+end;
+
+end.

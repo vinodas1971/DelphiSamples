@@ -1,0 +1,334 @@
+Will track coverage for:Shapes
+Trying to start ShapeCalcTests.exe with the Parameters :
+Started successfully
+Create Process:36388 name:ShapeCalcTests.exe
+Adding breakpoints for module:ShapeCalcTests.exe
+Module name "System.DateUtils" did not match module from address name "System.IOUtils" at address:001505D5
+Module name "System.IniFiles" did not match module from address name "DUnitConsts" at address:0015C314
+Module name "Vcl.ActnList" did not match module from address name "System.Win.ComConst" at address:001D3F7B
+Module name "Vcl.Controls" did not match module from address name "Vcl.StdCtrls" at address:0020AAD9
+Module name "Vcl.ListActns" did not match module from address name "Vcl.ComCtrls" at address:002374AF
+Module name "Vcl.ComCtrls" did not match module from address name "System.HelpIntfs" at address:00283E30
+Module name "Vcl.Dialogs" did not match module from address name "Vcl.ExtCtrls" at address:0029AD0E
+Module name "Vcl.ExtCtrls" did not match module from address name "Vcl.Themes" at address:002A3B52
+Module name "System.Win.TaskbarCore" did not match module from address name "Vcl.Forms" at address:0031360F
+Module name "Vcl.Buttons" did not match module from address name "GUITestRunner" at address:0034CEBD
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102062
+Adding breakpoint for Shapes.TRectangle.Create in Shapes.pas
+Creating class info for Shapes class TRectangle
+TBreakPoint.Activate:
+Activate Shapes.pas line 45 BreakPoint at:007588C0
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102063
+Adding breakpoint for Shapes.TRectangle.Create in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 46 BreakPoint at:007588F7
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102064
+Adding breakpoint for Shapes.TRectangle.Create in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 47 BreakPoint at:00758903
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102065
+Adding breakpoint for Shapes.TRectangle.Create in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 48 BreakPoint at:0075890F
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102066
+Adding breakpoint for Shapes.TRectangle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 51 BreakPoint at:00758970
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102067
+Adding breakpoint for Shapes.TRectangle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 52 BreakPoint at:0075897C
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102068
+Adding breakpoint for Shapes.TRectangle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 53 BreakPoint at:0075899A
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102069
+Adding breakpoint for Shapes.TRectangle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 56 BreakPoint at:007589B0
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102070
+Adding breakpoint for Shapes.TRectangle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 57 BreakPoint at:007589BC
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102071
+Adding breakpoint for Shapes.TRectangle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 58 BreakPoint at:007589E2
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102072
+Adding breakpoint for Shapes.TCircle.Create in Shapes.pas
+Creating class info for Shapes class TCircle
+TBreakPoint.Activate:
+Activate Shapes.pas line 63 BreakPoint at:00758A00
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102073
+Adding breakpoint for Shapes.TCircle.Create in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 64 BreakPoint at:00758A32
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102074
+Adding breakpoint for Shapes.TCircle.Create in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 65 BreakPoint at:00758A3E
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102075
+Adding breakpoint for Shapes.TCircle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 68 BreakPoint at:00758AA0
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102076
+Adding breakpoint for Shapes.TCircle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 69 BreakPoint at:00758AAC
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102077
+Adding breakpoint for Shapes.TCircle.GetArea in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 70 BreakPoint at:00758AD2
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102078
+Adding breakpoint for Shapes.TCircle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 73 BreakPoint at:00758AF0
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102079
+Adding breakpoint for Shapes.TCircle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 74 BreakPoint at:00758AFC
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102080
+Adding breakpoint for Shapes.TCircle.GetPerimeter in Shapes.pas
+TBreakPoint.Activate:
+Activate Shapes.pas line 75 BreakPoint at:00758B19
+Setting BreakPoint for module: Shapes unit Shapes.pas addr:102081
+Adding breakpoint for Shapes.Shapes in Shapes.pas
+Creating class info for Shapes class Shapes
+TBreakPoint.Activate:
+Activate Shapes.pas line 77 BreakPoint at:00758B50
+Module name "GUITestRunner" did not match module from address name "ShapeCalcTests" at address:0035ACFB
+Module DUnitConsts skipped
+Module DUnitTestRunner skipped
+Module GETMEM skipped
+Module GuiTestRunner skipped
+Module ShapeCalcTests skipped
+Module SysInit skipped
+Module System skipped
+Module System.Actions skipped
+Module System.AnsiStrings skipped
+Module System.Character skipped
+Module System.Classes skipped
+Module System.Contnrs skipped
+Module System.DateUtils skipped
+Module System.Diagnostics skipped
+Module System.Generics.Collections skipped
+Module System.Generics.Defaults skipped
+Module System.Hash skipped
+Module System.HelpIntfs skipped
+Module System.ImageList skipped
+Module System.IniFiles skipped
+Module System.Internal.ExcUtils skipped
+Module System.IOUtils skipped
+Module System.Masks skipped
+Module System.MaskUtils skipped
+Module System.Math skipped
+Module System.Messaging skipped
+Module System.RTLConsts skipped
+Module System.Rtti skipped
+Module System.StrUtils skipped
+Module System.SyncObjs skipped
+Module System.SysConst skipped
+Module System.SysUtils skipped
+Module System.TimeSpan skipped
+Module System.Types skipped
+Module System.TypInfo skipped
+Module System.UIConsts skipped
+Module System.UITypes skipped
+Module System.Variants skipped
+Module System.VarUtils skipped
+Module System.WideStrUtils skipped
+Module System.Win.ComConst skipped
+Module System.Win.ComObj skipped
+Module System.Win.Crtl skipped
+Module System.Win.Registry skipped
+Module System.Win.Taskbar skipped
+Module System.Win.TaskbarCore skipped
+Module System.ZLib skipped
+Module TestFramework skipped
+Module TestShapes skipped
+Module TextTestRunner skipped
+Module Vcl.ActnList skipped
+Module Vcl.Buttons skipped
+Module Vcl.Clipbrd skipped
+Module Vcl.ComCtrls skipped
+Module Vcl.ComStrs skipped
+Module Vcl.Consts skipped
+Module Vcl.Controls skipped
+Module Vcl.Dialogs skipped
+Module Vcl.ExtCtrls skipped
+Module Vcl.Forms skipped
+Module Vcl.Graphics skipped
+Module Vcl.GraphUtil skipped
+Module Vcl.ImgList skipped
+Module Vcl.ListActns skipped
+Module Vcl.Mask skipped
+Module Vcl.Menus skipped
+Module Vcl.Printers skipped
+Module Vcl.StdActns skipped
+Module Vcl.StdCtrls skipped
+Module Vcl.Themes skipped
+Module Vcl.ToolWin skipped
+Module Winapi.ActiveX skipped
+Module Winapi.CommCtrl skipped
+Module Winapi.CommDlg skipped
+Module Winapi.Dlgs skipped
+Module Winapi.DwmApi skipped
+Module Winapi.FlatSB skipped
+Module Winapi.ImageHlp skipped
+Module Winapi.Imm skipped
+Module Winapi.IpExport skipped
+Module Winapi.KnownFolders skipped
+Module Winapi.Messages skipped
+Module Winapi.MsCTF skipped
+Module Winapi.MsInkAut skipped
+Module Winapi.MSXMLIntf skipped
+Module Winapi.MultiMon skipped
+Module Winapi.ObjectArray skipped
+Module Winapi.PenInputPanel skipped
+Module Winapi.PropSys skipped
+Module Winapi.PsAPI skipped
+Module Winapi.Qos skipped
+Module Winapi.RegStr skipped
+Module Winapi.RichEdit skipped
+Module Winapi.ShellAPI skipped
+Module Winapi.ShellScaling skipped
+Module Winapi.SHFolder skipped
+Module Winapi.ShlObj skipped
+Module Winapi.StructuredQueryCondition skipped
+Module Winapi.TpcShrd skipped
+Module Winapi.UrlMon skipped
+Module Winapi.UxTheme skipped
+Module Winapi.Wincodec skipped
+Module Winapi.Windows skipped
+Module Winapi.WinInet skipped
+Module Winapi.WinSock2 skipped
+Module Winapi.WinSpool skipped
+Module WindowsAPIs skipped
+Done adding  BreakPoints
+Create thread:28312
+Create thread:30148
+Create thread:21880
+Couldn't find BreakPoint for exception address:A6000950
+Adding coverage:Shapes.pas (Shapes) 77
+Clearing BreakPoint at 00758B50
+De-Activate Shapes.pas line 77 BreakPoint at:00758B50
+Create thread:25636
+Create thread:36836
+Create thread:14904
+Create thread:37508
+Thread exit:37508
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Adding coverage:Shapes.pas (Shapes) 45
+Clearing BreakPoint at 007588C0
+De-Activate Shapes.pas line 45 BreakPoint at:007588C0
+Adding coverage:Shapes.pas (Shapes) 46
+Clearing BreakPoint at 007588F7
+De-Activate Shapes.pas line 46 BreakPoint at:007588F7
+Adding coverage:Shapes.pas (Shapes) 47
+Clearing BreakPoint at 00758903
+De-Activate Shapes.pas line 47 BreakPoint at:00758903
+Adding coverage:Shapes.pas (Shapes) 48
+Clearing BreakPoint at 0075890F
+De-Activate Shapes.pas line 48 BreakPoint at:0075890F
+Adding coverage:Shapes.pas (Shapes) 51
+Clearing BreakPoint at 00758970
+De-Activate Shapes.pas line 51 BreakPoint at:00758970
+Adding coverage:Shapes.pas (Shapes) 52
+Clearing BreakPoint at 0075897C
+De-Activate Shapes.pas line 52 BreakPoint at:0075897C
+Adding coverage:Shapes.pas (Shapes) 53
+Clearing BreakPoint at 0075899A
+De-Activate Shapes.pas line 53 BreakPoint at:0075899A
+Adding coverage:Shapes.pas (Shapes) 56
+Clearing BreakPoint at 007589B0
+De-Activate Shapes.pas line 56 BreakPoint at:007589B0
+Adding coverage:Shapes.pas (Shapes) 57
+Clearing BreakPoint at 007589BC
+De-Activate Shapes.pas line 57 BreakPoint at:007589BC
+Adding coverage:Shapes.pas (Shapes) 58
+Clearing BreakPoint at 007589E2
+De-Activate Shapes.pas line 58 BreakPoint at:007589E2
+Adding coverage:Shapes.pas (Shapes) 63
+Clearing BreakPoint at 00758A00
+De-Activate Shapes.pas line 63 BreakPoint at:00758A00
+Adding coverage:Shapes.pas (Shapes) 64
+Clearing BreakPoint at 00758A32
+De-Activate Shapes.pas line 64 BreakPoint at:00758A32
+Adding coverage:Shapes.pas (Shapes) 65
+Clearing BreakPoint at 00758A3E
+De-Activate Shapes.pas line 65 BreakPoint at:00758A3E
+Adding coverage:Shapes.pas (Shapes) 68
+Clearing BreakPoint at 00758AA0
+De-Activate Shapes.pas line 68 BreakPoint at:00758AA0
+Adding coverage:Shapes.pas (Shapes) 69
+Clearing BreakPoint at 00758AAC
+De-Activate Shapes.pas line 69 BreakPoint at:00758AAC
+Adding coverage:Shapes.pas (Shapes) 70
+Clearing BreakPoint at 00758AD2
+De-Activate Shapes.pas line 70 BreakPoint at:00758AD2
+Create thread:37364
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+Thread exit:37364
+Wait For Debug Event timed-out
+Wait For Debug Event timed-out
+UnLoading DLL:00314000
+EXCEPTION CODE:0000071A
+Address:A38ACD29
+EXCEPTION flags:00000001
+Failed to get thread context : 998(000003E6) -> Invalid access to memory location
+Create thread:27756
+Create thread:16448
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+UnLoading DLL:A3E50000
+Thread exit:36836
+Thread exit:21880
+Thread exit:30148
+Thread exit:25636
+Thread exit:28312
+Thread exit:27756
+Thread exit:14904
+Thread exit:16448
+Process 36388 exiting. Exit code :0
+Finished processing debug events
+ProcedureReport
+Generating reports
+Generating coverage report
+Source dir: C:\Development\Delphi\ShapeCalc\
+Output dir: .\Shapes_CodeCoverage
+Generating xml coverage report
+Finished generating reports
+
+Summary:
+
++-----------+-----------+-----------+
+|   Lines   |  Covered  | Covered % |
++-----------+-----------+-----------+
+|        20 |        17 |      85 % |
++-----------+-----------+-----------+

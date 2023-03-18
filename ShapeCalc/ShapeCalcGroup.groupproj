@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DD1E2DC8-6E2F-4AAB-9716-3591F2C77409}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ShapeCalc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\ShapeCalcTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ShapeCalc">
+        <MSBuild Projects="ShapeCalc.dproj"/>
+    </Target>
+    <Target Name="ShapeCalc:Clean">
+        <MSBuild Projects="ShapeCalc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShapeCalc:Make">
+        <MSBuild Projects="ShapeCalc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShapeCalcTests">
+        <MSBuild Projects="Test\ShapeCalcTests.dproj"/>
+    </Target>
+    <Target Name="ShapeCalcTests:Clean">
+        <MSBuild Projects="Test\ShapeCalcTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShapeCalcTests:Make">
+        <MSBuild Projects="Test\ShapeCalcTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ShapeCalc;ShapeCalcTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ShapeCalc:Clean;ShapeCalcTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ShapeCalc:Make;ShapeCalcTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

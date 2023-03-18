@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/05 12:18:11.000.124,=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 12:19:53.000.792,=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/10 20:19:57.000.412,=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/10 15:39:50.000.226,=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 14:49:32.000.572,=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/25 20:25:04.000.628,C:\Development\Delphi\ShapeCalc.dproj=C:\Users\V766147\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/02/25 20:49:07.000.035,C:\Development\Delphi\ShapeCalc\ShapeCalc.dproj=C:\Development\Delphi\ShapeCalc.dproj</Transaction>
+    <Transaction>2023/02/25 20:50:46.000.824,=C:\Development\Delphi\ShapeCalc\Unit1.pas</Transaction>
+    <Transaction>2023/02/25 20:51:11.000.101,C:\Development\Delphi\ShapeCalc\Shapes.pas=C:\Development\Delphi\ShapeCalc\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
