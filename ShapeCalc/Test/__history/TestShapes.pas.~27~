@@ -51,6 +51,9 @@ type
 
 implementation
 
+uses
+  System.Math;
+
 procedure TestTShape.SetUp;
 begin
   //FShape := TShape.Create;
@@ -75,7 +78,7 @@ end;
 
 procedure TestTRectangle.TestGetArea;
 var
-  ReturnValue: double;
+  ReturnValue: extended;
 begin
   ReturnValue := FRectangle.GetArea;
   CheckEquals(200, ReturnValue);
@@ -83,7 +86,7 @@ end;
 
 procedure TestTRectangle.TestGetPerimeter;
 var
-  ReturnValue: double;
+  ReturnValue: extended;
 begin
   ReturnValue := FRectangle.GetPerimeter;
   CheckEquals(60, ReturnValue);
@@ -102,7 +105,7 @@ end;
 
 procedure TestTCircle.TestGetArea;
 var
-  ReturnValue: double;
+  ReturnValue: extended;
 begin
   ReturnValue := FCircle.GetArea;
   CheckEquals(314, ReturnValue);
@@ -110,12 +113,11 @@ end;
 
 procedure TestTCircle.TestGetPerimeter;
 var
-  ReturnValue,
-  CheckValue: double;
+  ReturnValue: extended;
 begin
-  ReturnValue := FCircle.GetPerimeter;
-  CheckValue := 62.80;
-  CheckEquals(CheckValue, ReturnValue);
+  //ReturnValue := FCircle.GetPerimeter;
+  ReturnValue := SimpleRoundTo(62.8);
+  CheckEquals(SimpleRoundTo(62.8), ReturnValue);
 end;
 
 initialization

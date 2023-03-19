@@ -115,8 +115,8 @@ procedure TestTCircle.TestGetPerimeter;
 var
   ReturnValue: extended;
 begin
-  //ReturnValue := FCircle.GetPerimeter;
-  ReturnValue := SimpleRoundTo(62.8);
+  ReturnValue := FCircle.GetPerimeter;
+  //ReturnValue := SimpleRoundTo(62.8);
   CheckEquals(SimpleRoundTo(62.8), ReturnValue);
 end;
 
